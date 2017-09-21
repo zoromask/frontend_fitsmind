@@ -1,0 +1,30 @@
+<nav class="navbar-default navbar-static-side scroll-menu" role="navigation">
+	<div class="sidebar-collapse">
+		<ul side-navigation class="nav metismenu" id="side-menu" ng-controller="GetPlaceUser">
+			<li class="nav-header">
+				<div class="profile-element" uib-dropdown>
+					<img alt="image" class="img-circle-logo" ng-if="logo.length > 0" ng-src="{{logo}}">
+                    <a uib-dropdown-toggle="" href>
+                        <span class="clear">
+                            <span class="block m-t-xs">
+                                <strong class="font-bold">google marker</strong>
+                            </span>
+                            <span class="block m-t-xs link-to-website" >&nbsp;
+                            
+                            </span>  
+                        </span>  
+                    </a>
+				</div>
+				<div class="logo-element">
+					google marker
+				</div>
+			</li>
+			<li ng-class="{active: $state.includes('dashboard')}">
+				<a ui-sref="index.dashboard" title="Dashboard">
+					<i class="fa fa-tachometer"></i>
+					<span class="nav-label">Dashboard</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>

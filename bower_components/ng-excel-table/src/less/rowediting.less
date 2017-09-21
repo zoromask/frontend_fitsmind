@@ -1,0 +1,96 @@
+.excel-table.row-edit-form {
+	position: absolute;
+	display: none;
+	width: 100%;
+	transition:top .1s linear;
+}
+.excel-table.row-edit-form .tb-col {
+	margin: 0;
+	border: 0;
+	display: block;
+	height: 100%;
+}
+.excel-table.row-edit-form .tb-cell {
+	padding: 0;
+	height: 100%;
+}
+.excel-table.row-edit-form .tb-cell > input,
+.excel-table.row-edit-form .tb-cell > select {
+	clear: both;
+	height: 100%;
+	width: 100% !important;
+	padding: 1px 1px 1px 10px;
+	font-size: 14px;
+}
+.excel-table.row-edit-form .ctrl-panel-container{
+	float: left;
+	width: 100%;
+	margin-top: 1px;
+	position: relative;
+}
+.ctrl-panel-container .ctrl-panel-wrapper {
+	display: block;
+	position: absolute;
+	left: 45%;
+	width: 132px;
+}
+.ctrl-panel-wrapper span {
+	padding: 3px 0px;
+    margin: 0 2px;
+	width: 60px;
+	display: block;
+	float: left;
+	text-align: center;
+}
+.ctrl-panel-wrapper .save,
+.ctrl-panel-wrapper .cancel
+{
+	cursor: pointer;
+	background: white;
+	color: black;
+	border-radius: 0px 0px 4px 4px;
+	border: 1px solid #949CA1;
+	border-top: 0px;
+	text-align: center;
+}
+.multiSelect > button
+{
+	width: 100%;
+	overflow: auto;
+	border-radius: 0px;
+	background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    height: 41px;
+    text-align: left;
+    color: #333;
+}
+.multiSelect > button:hover {
+	background-image: none;
+}
+.cell-edit {
+	height: 100%;
+	width: 100% !important;
+}
+.cell-edit:after{
+	clear: both;
+	display: block;
+	content: " ";
+}
+.cell-edit > input.form-control{
+	float: left;
+	margin-right: -39px;
+	padding-right: 51px;
+	border-radius: 0px;
+	height: 100%;
+}
+.cell-edit > span.input-group-btn
+{
+	float: left;
+	width: 39px;
+	height: 100%;
+}
+.cell-edit.datepicker .input-group-btn button {
+	border-radius: 0px;
+	height: 100%;
+}

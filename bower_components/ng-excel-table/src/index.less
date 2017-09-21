@@ -1,0 +1,125 @@
+excel-table {
+	position: relative;
+    display: block;
+    overflow: auto;
+}
+.excel-table {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-box;
+	border: 1px solid #e7eaec;
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;
+}
+.excel-table:after {
+	clear: both;
+	display: block;
+	content: " ";
+}
+.excel-table .tb-cell {
+	border-width: 0px 0px 0px 0px;
+	border-style: solid;
+	border-color: #e7eaec;
+	padding: 10px;
+	min-height: 41px;
+}
+.excel-table .tb-cell:last-child {
+	border-width: 0px;
+}
+.excel-table .tb-cell:nth-child(odd) {
+	background-color: #F3F3F3;
+}
+.excel-table .row-hover{
+	background-color: #DADADA !important;	
+}
+.excel-table .tb-cell.header {
+	font-weight: 700;
+	background-color: white;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+    text-align: center;
+}
+.excel-table .tb-cell.header.group-header {
+	word-wrap: break-word;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: #e7eaec;
+	height: auto;
+}
+.excel-table .tb-col:first-child {
+	border-left-width: 0px;
+}
+.excel-table .tb-col:last-child {
+	border-right-width: 0px;
+}
+.excel-table .tb-col {
+	display: inline;
+	float: left;
+	border-width: 0px 0px 0px 1px;
+	border-style: solid;
+	border-color: #e7eaec;
+}
+
+.excel-table .tb-cell.header .pull-right {
+	float: right;
+}
+.excel-table .tb-cell.header.sortable {
+	cursor: pointer;
+}
+.excel-table .tb-cell.header.sortable.active .fa {
+	color: black;
+}
+
+.fa {
+    display: inline-block;
+    font: 14px/1 FontAwesome;
+    font-size: 14px;
+	color: lightgray;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0,0);
+}
+.table-control:after {
+	clear: both;
+	content: " ";
+	display: block;
+}
+.table-control .pagination-sm.right {
+	float: right;
+}
+.table-control .pager-limitTo {
+	float: left;
+	width: 200px;
+	margin: 20px 0;
+}
+.table-control .pager-limitTo input.form-control{
+	display: inline-block;
+	width: 70px;
+}
+.tb-col.first-group-header{
+	border-left:0px;
+}
+.tb-col.last-group-header {
+	border-right:0px;
+}
+.excel-table .group-header-item:after{
+	clear: both;
+}
+.excel-table .table-header-container{
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: #e7eaec;
+}
+.excel-table .table-header-container:after{
+	clear: both;
+	display: block;
+	content: " ";
+    /*display: table-cell;
+    vertical-align: bottom;*/
+}
+// injector
+// endinjector

@@ -1,0 +1,7 @@
+syntax: glob
+dist/*
+node_modules/*
+config/config.js
+./node_modules/*
+.tmp/*
+.DS_Store

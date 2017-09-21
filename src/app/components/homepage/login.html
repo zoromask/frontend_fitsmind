@@ -1,0 +1,54 @@
+<div class="middle-box loginscreen  animated fadeInDown">
+	<div>
+		<div>
+			<h3 class="logo-name">DATA E-GLOBAL</h3>
+		</div>
+		<form role="form" name="frmLogin" custom-submit novalidate>
+			<div class="panel panel-danger" >
+				<div class="panel-heading">
+					<div class="panel-title">Login</div>
+				</div>
+				<div class="panel-body">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="form-group no-padding row">
+							<label>Phone number</label>
+						</div>
+						<div class="form-group no-padding row">
+							<div class="col-xs-1 no-padding">
+								<mobi-scroll type="custom" dp-val="user.country_code" options="dpOptions"></mobi-scroll>
+							</div>
+							<div class="col-xs-11 no-padding">
+								<input type="text" ng-model="user.userName" class="form-control phone-number" placeholder="Phone" custom-validation data-mask="(999) 999-9999" validatetype="number" required="">
+							</div>
+						</div>
+						<div class="form-group no-padding row">
+							<label>Password</label>
+						</div>
+						<div class="form-group no-padding row">
+							<div class="input-group">
+								<span class="input-group-addon">
+									<i class="fa fa-user account-icon"></i>
+								</span>
+								<input type="password" ng-model="user.password" class="form-control" placeholder="Password" required="">
+							</div>
+						</div>
+						<div class="form-group no-padding row">
+							<input icheck type="checkbox" ng-model="user.remember"><i></i> Remember me
+						</div>
+						<div class="form-group no-padding row">
+							<div class="col-xs-6 no-padding">
+								<button type="submit" class="btn btn-primary block full-width m-b" ng-click="login()">Login</button>
+							</div>
+						</div>
+						<div class="form-group no-padding row">
+							<a ui-sref="homepage.forgotPassword">Forgot password?</a>
+							<!-- <a type="submit" ng-click="checkIn()">Check in</a><br> -->
+							<!-- <a ui-sref="homepage.forgotPassword">Support</a> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+
+	</div>
+</div>

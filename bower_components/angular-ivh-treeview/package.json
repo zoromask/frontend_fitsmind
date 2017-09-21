@@ -1,0 +1,68 @@
+{
+  "name": "angular-ivh-treeview",
+  "version": "2.0.0-alpha.1",
+  "description": "Treeview for angular with filtering and checkboxes",
+  "main": "gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivantage/angular-ivh-treeview.git"
+  },
+  "keywords": [
+    "angular",
+    "tree",
+    "treeview"
+  ],
+  "author": {
+    "name": "jtrussell"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivantage/angular-ivh-treeview/issues"
+  },
+  "homepage": "https://github.com/ivantage/angular-ivh-treeview",
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "matchdep": "^0.3.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt": "^0.4.5",
+    "grunt-bump": "0.0.14",
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^0.11.2",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-jasmine": "^0.6.5",
+    "grunt-jscs": "^1.8.0"
+  },
+  "gitHead": "71dcbb81aa2c9e60aef68e847e1c28cba3cc6c65",
+  "_id": "angular-ivh-treeview@2.0.0-alpha.1",
+  "_shasum": "2dec0c881bd642ca999eae4e2d0ce0d3d63eb89e",
+  "_from": "angular-ivh-treeview@latest",
+  "_npmVersion": "3.8.3",
+  "_nodeVersion": "5.10.0",
+  "_npmUser": {
+    "name": "jtrussell",
+    "email": "jus.russell@gmail.com"
+  },
+  "dist": {
+    "shasum": "2dec0c881bd642ca999eae4e2d0ce0d3d63eb89e",
+    "tarball": "https://registry.npmjs.org/angular-ivh-treeview/-/angular-ivh-treeview-2.0.0-alpha.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "jtrussell",
+      "email": "jus.russell@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/angular-ivh-treeview-2.0.0-alpha.1.tgz_1469050493243_0.9124444266781211"
+  },
+  "_resolved": "https://registry.npmjs.org/angular-ivh-treeview/-/angular-ivh-treeview-2.0.0-alpha.1.tgz"
+}

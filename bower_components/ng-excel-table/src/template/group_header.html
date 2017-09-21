@@ -1,0 +1,12 @@
+<div style="width: 100%;">
+	<div tb-cell class="{{tableId}} tb-cell header" data-column="{{col.dataIndex}}" ng-class="{'sortable' : col.sortable, 'group-header':col.items.length > 0, 'col-{{col.dataIndex}}':col.items == undefined}">
+		{{col.title}}
+		<span class="pull-right" ng-if="col.sortable">
+			<i class="fa fa-sort-amount-asc"></i>
+		</span>
+	</div>
+	<!-- generate group header -->
+	<div class="group-header-item">
+		<div class="tb-col" ng-repeat="col in col.items" style="width:{{col.width}}" ng-class="{'first-group-header' : $first, 'last-group-header' : $last}" ng-include="'template/group_header.html'"></div>
+	</div>
+</div>
